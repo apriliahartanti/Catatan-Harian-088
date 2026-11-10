@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    android:background="@drawable/bg_card_088"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNoteTitle088"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Catatan"
+        android:textColor="@color/text_main_088"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNoteDate088"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Tanggal Catatan"
+        android:textColor="@color/text_secondary_088"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvNoteContent088"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:text="Isi catatan harian"
+        android:textColor="@color/text_main_088"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditNote088"
+            android:layout_width="90dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_input_088"
+            android:backgroundTint="@null"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_dark_088"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnDeleteNote088"
+            android:layout_width="90dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_button_088"
+            android:backgroundTint="@null"
+            android:text="Hapus"
+            android:textAllCaps="false"
+            android:textColor="@color/white_088"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

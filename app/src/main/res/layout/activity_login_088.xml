@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_bg_088"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CATATAN HARIAN"
+            android:textColor="@color/blue_dark_088"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Simpan setiap cerita dalam harimu"
+            android:textColor="@color/text_secondary_088"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/bg_card_088"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang!"
+                android:textColor="@color/text_main_088"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Silakan masuk ke akun kamu"
+                android:textColor="@color/text_secondary_088"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etUsername088"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/bg_input_088"
+                android:hint="Username"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@color/text_main_088"
+                android:textColorHint="@color/text_secondary_088"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etPassword088"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_input_088"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/text_main_088"
+                android:textColorHint="@color/text_secondary_088"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnLogin088"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/bg_button_088"
+                android:backgroundTint="@null"
+                android:text="Masuk"
+                android:textAllCaps="false"
+                android:textColor="@color/white_088"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvGoRegister088"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Belum punya akun? Daftar di sini"
+                android:textColor="@color/blue_dark_088"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Catatan kecil, kenangan berharga."
+            android:textColor="@color/text_secondary_088"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</ScrollView>

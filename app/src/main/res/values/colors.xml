@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_bg_088">#F3F7FC</color>
+    <color name="blue_primary_088">#789CCB</color>
+    <color name="blue_button_088">#648DBF</color>
+    <color name="blue_dark_088">#42658F</color>
+    <color name="text_main_088">#26364A</color>
+    <color name="text_secondary_088">#65758B</color>
+    <color name="white_088">#FFFFFF</color>
+    <color name="border_088">#E2EAF4</color>
+</resources>
